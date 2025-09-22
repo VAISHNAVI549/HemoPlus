@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HemoPlus</string>
+    <string name="tagline">Connecting Lives Through Blood Donation</string>
+
+    <!-- Authentication -->
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="user_type">I am a</string>
+    <string name="donor">Donor</string>
+    <string name="recipient">Recipient</string>
+    <string name="welcome">Welcome</string>
+    <string name="forgot_password">Forgot Password?</string>
+
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+    <string name="feed">Feed</string>
+    <string name="about">About HemoPlus</string>
+    <string name="logout">Logout</string>
+
+    <!-- Donor -->
+    <string name="donate_now">Donate Now</string>
+    <string name="find_recipients">Find Recipients</string>
+    <string name="my_donations">My Donations</string>
+    <string name="donation_history">Donation History</string>
+
+    <!-- Recipient -->
+    <string name="request_blood">Request Blood</string>
+    <string name="find_donors">Find Donors</string>
+    <string name="my_requests">My Requests</string>
+    <string name="urgent_requests">Urgent Requests</string>
+
+    <!-- Profile -->
+    <string name="my_profile">My Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="update_profile">Update Profile</string>
+
+    <!-- Blood Types -->
+    <string-array name="blood_types">
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <!-- Urgency Levels -->
+    <string-array name="urgency_levels">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>Critical</item>
+    </string-array>
+</resources>

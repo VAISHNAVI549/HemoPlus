@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background Circle as a path (radius 55, center 60,60) -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M60,5
+                          a55,55 0 1,0 0,110
+                          a55,55 0 1,0 0,-110" />
+
+    <!-- H Letter -->
+    <path
+        android:fillColor="@color/primary_red"
+        android:pathData="M25,25 L35,25 L35,50 L50,50 L50,25 L60,25 L60,75 L50,75 L50,60 L35,60 L35,75 L25,75 Z" />
+
+    <!-- P Letter -->
+    <path
+        android:fillColor="@color/primary_red"
+        android:pathData="M70,25 L95,25 Q100,25 100,35 L100,45 Q100,55 95,55 L80,55 L80,75 L70,75 Z
+                          M80,35 L80,45 L90,45 L90,35 Z" />
+
+    <!-- Blood Drop -->
+    <path
+        android:fillColor="@color/primary_red"
+        android:pathData="M60,85 Q55,90 60,95 Q65,90 60,85 Z" />
+</vector>
